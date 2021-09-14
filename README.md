@@ -1,7 +1,7 @@
 # Millicast Studio
 
  - [X] Full App
- - [ ] CLI
+ - [X] CLI
  - [ ] Remote Control through web Interface
 
 ## Features
@@ -37,7 +37,7 @@
 | [x] h.264 | Main |  8 | 4:2:0 | BT.601 | [/] Simulcast | [ ] | [ ] | [ ] |
 | [/] h.264 | High |  8 | 4:2:0 | BT.601 | [ ] Simulcast | [ ] | [ ] | [ ] |
 | [x] VP8   |      |  8 | 4:2:0 | BT.601 | [/] Simulcast | [ ] | [ ] | [ ] |
-| [x] VP9   | 0    |  8 | 4:2:0 | ?      | [/]           | [ ] | [ ] | [ ] |
+| [x] VP9   | 0    |  8 | 4:2:0 | ?      | [x]           | [ ] | [ ] | [ ] |
 | [ ] VP9   | 1    |  8 | 4:2:2 | ?      | [ ]           | [ ] | [ ] | [ ] |
 | [ ] VP9   | 1    |  8 | 4:4:4 | ?      | [ ]           | [ ] | [ ] | [ ] |
 | [ ] VP9   | 2    | 10 | 4:2:0 | HDR10  | [/]           | [ ] | [ ] | [ ] |
@@ -45,7 +45,7 @@
 | [ ] VP9   | 3    | 10 | 4:2:2 | ?      | [ ]           | [ ] | [ ] | [ ] |
 | [ ] VP9   | 3    | 12 | 4:4:4 | ?      | [ ]           | [ ] | [ ] | [ ] |
 | [/] HEVC  | ?    |  8 | 4:2:0 | ?      | [ ] Simulcast | [ ] | [ ] | [ ] |
-| [x] AV1   | Main |  8 | 4:2:0 | ?      | [ ] | [ ] | [ ] | [ ] |
+| [x] AV1   | Main |  8 | 4:2:0 | ?      | [X] | [ ] | [ ] | [ ] |
 | [ ] AV1   | Main | 10 | 4:2:0 | ?      | [ ] | [ ] | [ ] | [ ] |
 | [ ] AV1   | High |  8 | 4:2:0 | ?      | [ ] | [ ] | [ ] | [ ] |
 | [ ] AV1   | High | 10 | 4:2:0 | ?      | [ ] | [ ] | [ ] | [ ] |
@@ -71,9 +71,9 @@ Demo : https://www.youtube.com/watch?v=yTCERenocAY
 
 | Windows | MacOs | Linux | iOS | Android |
 | --- | --- | --- | --- | --- |
-| [x] Win10 | [x] MacOS 10.14 intel | [x] Linux 18 Deb Package | [/] iOS xxx on yyy | [ ] android xxx on yyy |
+| [x] Win10 | [x] MacOS 10.14 intel | [x] Linux 18 Deb Package | [X] iOS xxx on yyy | [ ] android xxx on yyy |
 |           | [x] MacOS 10.15 intel | [x] Linux 18 AppImage    | | |
-|           | [ ] MacOs 10.16 intel | [x] Linux 20 Deb Package | | |
+|           | [x ] MacOs 10.16 intel | [x] Linux 20 Deb Package | | |
 |           |                       | [x] Linux 20 AppImage    | | |
 
 # Millicast Player
@@ -91,8 +91,8 @@ Demo : https://www.youtube.com/watch?v=yTCERenocAY
 
 | Windows | MacOs | Linux | iOS | Android | AppleTV |
 | --- | --- | --- | --- | --- | --- |
-| [x] Win10 | [x] MacOS 10.14 | [x] Linux 18 | [/] iOS xxx on yyy | [ ] android xxx on yyy | [/] tvOS xxx on yyy |
-|           | [x] MacOS 10.15 | | | | |
+| [x] Win10 | [x] MacOS Catalyna | [x] Ubuntu 20 | [x] iOS 14 | [x] android | [x] tvOS 14 |
+|           | [x] MacOS BigSur | | | | |
 
 # Thank you for reading so far
 
