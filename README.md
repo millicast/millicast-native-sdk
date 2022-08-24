@@ -1,6 +1,6 @@
 # Millicast native SDK
 
-## Suported OSes.
+## Supported OSes.
 
 | Windows | MacOs | Linux | iOS | Android | AppleTV |
 | --- | --- | --- | --- | --- | --- |
