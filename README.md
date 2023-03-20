@@ -5,7 +5,7 @@
 | Windows | MacOs | Linux | iOS | Android | AppleTV |
 | --- | --- | --- | --- | --- | --- |
 | [x] Win10 | [x] MacOS Catalyna | [x] Ubuntu 20 | [x] iOS >= 14.5| [x] Android >= API 24 | [x] tvOS >= 14.5 |
-|           | [x] MacOS BigSur | | | | |
+|           | [x] MacOS BigSur | [x] Ubuntu 22 | | | |
 |           | [x] MacOS Monterey | | | | |
 
 ## Audio Codecs and Quality - Encoding
