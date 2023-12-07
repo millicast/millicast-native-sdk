@@ -1,45 +1,39 @@
-# Millicast native SDK
+# Millicast Native SDK
 
-## Supported OSes.
+The Native SDK is designed to simplify [Dolby.io Streaming](https://docs.dolby.io/streaming-apis/docs/introduction-to-streaming-apis) integration into Android, iOS, macOS, Windows, and Linux applications. Using the SDK you can stream high-value content at scale with ultra-low latency.
 
-| Windows | MacOs | Linux | iOS | Android | AppleTV |
-| --- | --- | --- | --- | --- | --- |
-| [x] Win10 | [x] MacOS Catalyna | [x] Ubuntu 20 | [x] iOS >= 14.5| [x] Android >= API 24 | [x] tvOS >= 14.5 |
-|           | [x] MacOS BigSur | [x] Ubuntu 22 | | | |
-|           | [x] MacOS Monterey | | | | |
+## Requirements
 
-## Audio Codecs and Quality - Encoding
+The SDK is currently supported on the following operating systems:
+- Android 7.0+
+- iOS 14.5+
+- macOS 10.15+
+- Windows 10+
+- Ubuntu 20+
 
-- [x] G.711
-- [ ] AAC
-  - [ ] Number of channels
-  - [ ] Sampling
-  - [ ] LC / HE / HEv2
-- [ ] Dolby AC3
-- [x] Opus stereo
-- [x] Opus 5.1 & 7.1
+## Packages
 
+The SDK offers a set of packages for each platform. You can find more information about the packages in the following table:
 
+| Platform | Package | Restrictions | AV1 support |
+| - | - | - | - |
+| Android | millicast-native-sdk-version-Android.tar.gz | - | ✓ |
+| iOS | millicast-native-sdk-version-XCFramework.zip | - | ✓ |
+| macOS | millicast-native-sdk-version-Darwin.zip | Only for Macs with Intel processor | ✓ |
+| macOS | millicast-native-sdk-version-Darwin-no-av1.zip | Only for Macs with Intel processor | - |
+| macOS | millicast-native-sdk-version-Darwin-m1.zip | Only for Macs with M1 processor | ✓ |
+| macOS | millicast-native-sdk-version-Darwin-m1-no-av1.zip | Only for Macs with M1 processor | - |
+| Windows | millicast-native-sdk-version-Windows.zip | - | ✓ |
+| Windows | millicast-native-sdk-version-Windows-no-av1.zip | - | - |
+| Linux | millicast-native-sdk-1.5.2-Ubuntu-20.04.deb | Only for Ubuntu 20.04 | ✓ |
+| Linux | millicast-native-sdk-1.5.2-Ubuntu-20.04-no-av1.deb | Only for Ubuntu 20.04 | - |
+| Linux | millicast-native-sdk-1.5.2-Ubuntu-22.04.deb | Only for Ubuntu 22.04 | ✓ |
+| Linux | millicast-native-sdk-1.5.2-Ubuntu-22.04-no-av1.deb | Only for Ubuntu 22.04 | - |
 
-## Video Codecs and Quality - Encoding
+## Documentation
 
-| Codec | Profile | Bit | Chroma | Color Space | SVC | Intel HW | AMD HW | NV HW |
-| ---   | :---:   | :---:| :---: | :---: | :---: | :---: | :---: | :---: |
-| [x] h.264 | Main |  8 | 4:2:0 | BT.601 | [/] Simulcast | [ ] | [ ] | [ ] |
-| [/] h.264 | High |  8 | 4:2:0 | BT.601 | [ ] Simulcast | [ ] | [ ] | [ ] |
-| [x] VP8   |      |  8 | 4:2:0 | BT.601 | [/] Simulcast | [ ] | [ ] | [ ] |
-| [x] VP9   | 0    |  8 | 4:2:0 | ?      | [x]           | [ ] | [ ] | [ ] |
-| [ ] VP9   | 1    |  8 | 4:2:2 | ?      | [ ]           | [ ] | [ ] | [ ] |
-| [ ] VP9   | 1    |  8 | 4:4:4 | ?      | [ ]           | [ ] | [ ] | [ ] |
-| [ ] VP9   | 2    | 10 | 4:2:0 | HDR10  | [/]           | [ ] | [ ] | [ ] |
-| [ ] VP9   | 2    | 12 | 4:2:0 | ?      | [ ]           | [ ] | [ ] | [ ] |
-| [ ] VP9   | 3    | 10 | 4:2:2 | ?      | [ ]           | [ ] | [ ] | [ ] |
-| [ ] VP9   | 3    | 12 | 4:4:4 | ?      | [ ]           | [ ] | [ ] | [ ] |
-| [/] HEVC  | ?    |  8 | 4:2:0 | ?      | [ ] Simulcast | [ ] | [ ] | [ ] |
-| [x] AV1   | Main |  8 | 4:2:0 | ?      | [X] | [ ] | [ ] | [ ] |
-| [ ] AV1   | Main | 10 | 4:2:0 | ?      | [ ] | [ ] | [ ] | [ ] |
-| [ ] AV1   | High |  8 | 4:2:0 | ?      | [ ] | [ ] | [ ] | [ ] |
-| [ ] AV1   | High | 10 | 4:2:0 | ?      | [ ] | [ ] | [ ] | [ ] |
-| [ ] AV1   | High |  8 | 4:4:4 | ?      | [ ] | [ ] | [ ] | [ ] |
-| [ ] AV1   | High | 10 | 4:4:4 | ?      | [ ] | [ ] | [ ] | [ ] |
-| [ ] AV1   | Pro  | 8~12 | All | ?      | [ ] | [ ] | [ ] | [ ] |
+If you want to start using the SDK, see the following instructions and documentation:
+
+- Android: [Getting Started](https://docs.dolby.io/streaming-apis/docs/android) and [API documentation](https://millicast.github.io/doc/java/index.html)
+- iOS: [Getting Started](https://docs.dolby.io/streaming-apis/docs/ios) and [API documentation](https://millicast.github.io/doc/objc/index.html)
+- macOS, Windows, and Linux: [Getting Started](https://docs.dolby.io/streaming-apis/docs/desktop) and [API documentation](https://millicast.github.io/doc/cpp/index.html)
