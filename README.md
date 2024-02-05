@@ -17,7 +17,7 @@ The SDK offers a set of packages for each platform. You can find more informatio
 
 | Platform                               | Package name                                                           | 
 | -------------------------------------- | ---------------------------------------------------------------------- |
-| Android                                | millicast-native-sdk-version-Android.tar.gz                            | 
+| Android                                | millicast-native-sdk-version-Android.zip                           | 
 | iOS                                    | millicast-native-sdk-version-XCFramework.zip                           | 
 | macOS                                  | millicast-native-sdk-version-macos-arm64.zip                           |
 | macOS                                  | millicast-native-sdk-version-macos-x64.zip                             |
