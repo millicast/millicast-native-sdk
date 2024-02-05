@@ -15,20 +15,19 @@ The SDK is currently supported on the following operating systems:
 
 The SDK offers a set of packages for each platform. You can find more information about the packages in the following table:
 
-| Platform | Package | Restrictions | AV1 support |
-| - | - | - | - |
-| Android | millicast-native-sdk-version-Android.tar.gz | - | ✓ |
-| iOS | millicast-native-sdk-version-XCFramework.zip | - | ✓ |
-| macOS | millicast-native-sdk-version-Darwin.zip | Only for Macs with Intel processor | ✓ |
-| macOS | millicast-native-sdk-version-Darwin-no-av1.zip | Only for Macs with Intel processor | - |
-| macOS | millicast-native-sdk-version-Darwin-m1.zip | Only for Macs with M1 processor | ✓ |
-| macOS | millicast-native-sdk-version-Darwin-m1-no-av1.zip | Only for Macs with M1 processor | - |
-| Windows | millicast-native-sdk-version-Windows.zip | - | ✓ |
-| Windows | millicast-native-sdk-version-Windows-no-av1.zip | - | - |
-| Linux | millicast-native-sdk-1.5.2-Ubuntu-20.04.deb | Only for Ubuntu 20.04 | ✓ |
-| Linux | millicast-native-sdk-1.5.2-Ubuntu-20.04-no-av1.deb | Only for Ubuntu 20.04 | - |
-| Linux | millicast-native-sdk-1.5.2-Ubuntu-22.04.deb | Only for Ubuntu 22.04 | ✓ |
-| Linux | millicast-native-sdk-1.5.2-Ubuntu-22.04-no-av1.deb | Only for Ubuntu 22.04 | - |
+| Platform                               | Package name                                                           | 
+| -------------------------------------- | ---------------------------------------------------------------------- |
+| Android                                | millicast-native-sdk-version-Android.tar.gz                            | 
+| iOS                                    | millicast-native-sdk-version-XCFramework.zip                           | 
+| macOS                                  | millicast-native-sdk-version-macos-arm64.zip                           |
+| macOS                                  | millicast-native-sdk-version-macos-x64.zip                             |
+| macOS                                  | millicast-native-sdk-version-macos-Framework.zip                       |
+| Windows                                | millicast-native-sdk-version-windows-x64.zip                           |
+| Ubuntu GNU libstdc++ library           | millicast-native-sdk-version-ubuntu22-x64-gnu-std.deb                  |
+| Ubuntu GNU libstdc++ library           | millicast-native-sdk-version-ubuntu20-x64-gnu-std.deb                  |
+| Ubuntu LLVM libc++ library             | millicast-native-sdk-version-ubuntu22-x64-llvm-std.deb                 |
+| Ubuntu LLVM libc++ library             | millicast-native-sdk-version-ubuntu20-x64-llvm-std.deb                 |
+| Debian11 arm-v8a GNU libstdc++ library | millicast-native-sdk-version-debian11-armv8a-nox11-nopulse-gnu-std.deb |
 
 ## Documentation
 
