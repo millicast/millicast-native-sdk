@@ -33,6 +33,6 @@ The SDK offers a set of packages for each platform. You can find more informatio
 
 If you want to start using the SDK, see the following instructions and documentation:
 
-- Android: [Getting Started](https://docs.dolby.io/streaming-apis/docs/android) and [API documentation](https://millicast.github.io/doc/java/index.html)
-- iOS: [Getting Started](https://docs.dolby.io/streaming-apis/docs/ios) and [API documentation](https://millicast.github.io/doc/objc/documentation/millicastsdk)
-- macOS, Windows, and Linux: [Getting Started](https://docs.dolby.io/streaming-apis/docs/desktop) and [API documentation](https://millicast.github.io/doc/cpp/index.html)
+- Android: [Getting Started](https://docs.dolby.io/streaming-apis/docs/android) and [API documentation](https://millicast.github.io/doc/latest/android/index.html)
+- iOS: [Getting Started](https://docs.dolby.io/streaming-apis/docs/ios) and [API documentation](https://millicast.github.io/doc/latest/apple/documentation/millicastsdk)
+- macOS, Windows, and Linux: [Getting Started](https://docs.dolby.io/streaming-apis/docs/desktop) and [API documentation](https://millicast.github.io/doc/latest/cpp/index.html)
