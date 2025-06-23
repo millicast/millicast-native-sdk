@@ -9,7 +9,7 @@ The SDK is currently supported on the following operating systems:
 - iOS 14.5+
 - macOS 10.15+
 - Windows 10+
-- Ubuntu 20+
+- Ubuntu 22+
 
 ## Packages
 
@@ -24,9 +24,7 @@ The SDK offers a set of packages for each platform. You can find more informatio
 | macOS                                  | millicast-native-sdk-version-macos-Framework.zip                       |
 | Windows                                | millicast-native-sdk-version-windows-x64.zip                           |
 | Ubuntu GNU libstdc++ library           | millicast-native-sdk-version-ubuntu22-x64-gnu-std.deb                  |
-| Ubuntu GNU libstdc++ library           | millicast-native-sdk-version-ubuntu20-x64-gnu-std.deb                  |
 | Ubuntu LLVM libc++ library             | millicast-native-sdk-version-ubuntu22-x64-llvm-std.deb                 |
-| Ubuntu LLVM libc++ library             | millicast-native-sdk-version-ubuntu20-x64-llvm-std.deb                 |
 | Debian11 arm-v8a GNU libstdc++ library | millicast-native-sdk-version-debian11-armv8a-nox11-nopulse-gnu-std.deb |
 
 ## Documentation
